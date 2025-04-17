@@ -34,6 +34,22 @@
                 </a>
             </li> <!-- end Dashboard Menu -->
             <li class="menu-title"><span data-key="t-menu">Masters</span></li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-link" href="#catg" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="catg">
+                    <i class="las la-briefcase"></i> <span>Business Category</span>
+                </a>
+                <div class="collapse menu-dropdown" id="catg">
+                    <ul class="nav nav-sm flex-column">
+                        <li class="nav-item">
+                            <a href="{{url('/superadmin/create-business-category')}}" class="nav-link">Main Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{url('/superadmin/create-sub-category')}}" class="nav-link">Sub Category</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
            
             <li class="nav-item">
                 <a class="nav-link menu-link" href="#client" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="client">

@@ -53,3 +53,9 @@ Route::get('/superadmin/add-client-profile', function () {
 Route::get('/superadmin/manage-client-profile', function () {
     return view('superadmin.manage-client-profile');
 });
+Route::get('/superadmin/create-business-category', function () {
+    return view('superadmin.create-business-category');
+});
+Route::get('/superadmin/create-sub-category', function () {
+    return view('superadmin.create-sub-category');
+});
