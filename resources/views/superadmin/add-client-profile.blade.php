@@ -5,13 +5,13 @@
     <div class="row">
         <div class="col-12">
             <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-galaxy-transparent">
-                <h1 class="h3 fw-semibold mb-sm-0">Add Form</h1>
+                <h1 class="h3 fw-semibold mb-sm-0">Client Profile</h1>
 
 
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="{{url('/dashboard')}}">Dashboard</a></li>
-                        <li class="breadcrumb-item active">Add Form</li>
+                        <li class="breadcrumb-item active">Client Profile</li>
                     </ol>
                 </div>
 
@@ -23,7 +23,7 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Add Form</h4>
+                    <h4 class="card-title">Add Profile</h4>
                     <p class="mb-0 text-muted">Please fill or update the below form.</p>
                 </div>
                 <div class="card-body py-4">
@@ -44,96 +44,143 @@
 
                         </div>
                     </div>
-                    <div class="row g-3">
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Field Name 1</label>
-                            <input type="text" class="form-control" id="" name="">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <fieldset>
+                                <legend>Business Detail</legend>
+                                <div class="row g-3">
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Busines Name <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Busines Owner <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Business Category <span class="text-danger">*</span></label>
+                                        <select name="" id="" class="form-control selectpicker MySelect" multiple data-live-search="true" multiple data-selected-text-format="count" data-width="100%" multiple data-actions-box="true">
+                                            <option value="">Retail</option>
+                                            <option value="">Wholesale</option>
+                                            <option value="">Distributor</option>
+                                            <option value="">Manufacturing</option>
+                                            <option value="">Others</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Sub Category <span class="text-danger">*</span></label>
+                                        <select name="" id="" class="form-select select2">
+                                            <option value="">-- Choose --</option>
+                                            <option value="">Kirana or General Merchant</option>
+                                            <option value="">Fashion & Accessories</option>
+                                            <option value="">Hardware Store</option>
+                                            <option value="">Mobile & Accessories</option>
+                                            <option value="">Automobiles / Auto Parts</option>
+                                            <option value="">Footwear</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">GST Number <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Address Detail</legend>
+                                <div class="row g-3">
+                                    <div class="col-lg-12">
+                                        <label for="" class="form-label">Street Address <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Country <span class="text-danger">*</span></label>
+                                        <select name="" id="" class="form-select select2">
+                                            <option value="">-- Choose --</option>
+                                            <option value="" selected>India</option>
+                                            <option value="">Option 2</option>
+                                            <option value="">Option 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">State <span class="text-danger">*</span></label>
+                                        <select name="" id="" class="form-select select2">
+                                            <option value="">-- Choose --</option>
+                                            <option value="" selected>Chandigarh</option>
+                                            <option value="">Punjab</option>
+                                            <option value="">Haryana</option>
+                                            <option value="">Himachal Pradesh</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">City <span class="text-danger">*</span></label>
+                                        <select name="" id="" class="form-select select2">
+                                            <option value="">-- Choose --</option>
+                                            <option value="" selected>Chandigarh</option>
+                                            <option value="">Amritsar</option>
+                                            <option value="">Ambala</option>
+                                            <option value="">Shimla</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Pin Code <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                </div>
+                            </fieldset>
+
+                            <fieldset>
+                                <legend>Contact Detail</legend>
+                                <div class="row g-3">
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Landline Number </label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Email ID </label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="" class="form-label">Website </label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                </div>
+                            </fieldset>
+
                         </div>
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Field Name 2</label>
-                            <input type="text" class="form-control" id="" name="">
-                        </div>
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Field Name 3</label>
-                            <input type="file" class="form-control" id="" name="">
-                        </div>
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Dropdown</label>
-                            <select name="" id="" class="form-select">
-                                <option value="">Choose</option>
-                                <option value="">Active</option>
-                                <option value="">Inactive</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Single Select with Search</label>
-                            <select name="" id="" class="form-select select2">
-                                <option value="">Choose</option>
-                                <option value="">Option 1</option>
-                                <option value="">Option 2</option>
-                                <option value="">Option 3</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Multi Select wit Search</label>
-                            <select name="" id="" class="form-control selectpicker MySelect" multiple data-live-search="true" multiple data-selected-text-format="count" data-width="100%" multiple data-actions-box="true">
-                                <option value="">Option 1</option>
-                                <option value="">Option 2</option>
-                                <option value="">Option 3</option>
-                                <option value="">Option 4</option>
-                                <option value="">Option 5</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Datepicker</label>
-                            <input type="text" class="form-control datepicker" id="" name="" placeholder="">
-                        </div>
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Checkbox</label>
-                            <div class="form-check mb-2 mt-2">
-                                <input class="form-check-input" type="checkbox" id="formCheck1">
-                                <label class="form-check-label" for="formCheck1">
-                                    Default checkbox
-                                </label>
+                        <div class="col-lg-4">
+                            <div class="card border">
+                                <div class="card-header bg-light">
+                                    <h4 class="card-title mb-0">Upload Logo</h4>
+                                </div>
+                                <div class="card-body text-center p-4">
+                                    <img src="{{asset('assets')}}/images/no-img.jpg" class="img-thumbnail" alt="business logo">
+                                    <div class="mt-4">
+                                        <input type="file" class="form-control" name="" id="">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Inline Checkbox</label> <br>
-                            <!-- Inline Checkbox -->
-                            <div class="form-check form-check-inline mt-2">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                                <label class="form-check-label" for="inlineCheckbox1">1</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                                <label class="form-check-label" for="inlineCheckbox2">2</label>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <label for="" class="form-label">Inline Radio Buttons</label> <br>
-                            <!-- Inline Radios -->
-                            <div class="form-check form-check-inline mt-2">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1">
-                                <label class="form-check-label" for="inlineRadio1">1</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option2">
-                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            <div class="card border">
+                                <div class="card-header bg-light">
+                                    <h4 class="card-title mb-0">Upload Signature</h4>
+                                </div>
+                                <div class="card-body text-center p-4">
+                                    <img src="{{asset('assets')}}/images/no-img.jpg" class="img-thumbnail" alt="business logo">
+                                    <div class="mt-4">
+                                        <input type="file" class="form-control" name="" id="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-2">
-                            <label for="" class="form-label">&nbsp;</label> <br>
-                            <button type="button" class="btn btn-secondary waves-effect waves-light">Primary Button</button>
+                        <div class="col-lg-12">
+                            <button type="button" class="btn btn-primary waves-effect waves-light">Submit</button>
                         </div>
-                        <div class="col-lg-2">
-                            <label for="" class="form-label">&nbsp;</label> <br>
-                            <button type="button" class="btn btn-danger waves-effect waves-light">Danger Button</button>
-                        </div>
-                        <div class="col-lg-2">
-                            <label for="" class="form-label">&nbsp;</label> <br>
-                            <button type="button" class="btn btn-warning waves-effect waves-light">Warning Button</button>
-                        </div>
+
                     </div>
                 </div>
             </div>

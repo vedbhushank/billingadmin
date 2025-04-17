@@ -38,6 +38,9 @@ Route::get('/editor', function () {
 Route::get('/superadmin', function () {
     return view('superadmin.index');
 });
+Route::get('/superadmin/form-elements', function () {
+    return view('superadmin.form-elements');
+});
 Route::get('/superadmin/forgot-password', function () {
     return view('superadmin.forgot-password');
 });

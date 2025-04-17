@@ -1,2 +1,15 @@
-
-/*# sourceMappingURL=custom.min.css.map */
+fieldset {
+    border: solid 1px #e9ebec;
+    padding: 10px 20px 25px 20px;
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+}
+legend {
+    float: none;
+    width: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 5px;
+    color: #4169e1;
+}
