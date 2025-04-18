@@ -66,6 +66,23 @@
                     </ul>
                 </div>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-link" href="#acc" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="acc">
+                    <i class="las la-cog"></i> <span>Accounts</span>
+                </a>
+                <div class="collapse menu-dropdown" id="acc">
+                    <ul class="nav nav-sm flex-column">
+                        <li class="nav-item">
+                            <a href="{{url('/superadmin/create-user')}}" class="nav-link">Create User</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{url('/superadmin/user-role')}}" class="nav-link">User Role</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            
             <li class="nav-item">
                 <a class="nav-link menu-link" href="#v2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="v2">
                     <i class="las la-user"></i> <span>Form Elements</span>
