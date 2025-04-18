@@ -62,3 +62,9 @@ Route::get('/superadmin/create-business-category', function () {
 Route::get('/superadmin/create-sub-category', function () {
     return view('superadmin.create-sub-category');
 });
+Route::get('/superadmin/create-user', function () {
+    return view('superadmin.create-user');
+});
+Route::get('/superadmin/user-role', function () {
+    return view('superadmin.user-role');
+});
