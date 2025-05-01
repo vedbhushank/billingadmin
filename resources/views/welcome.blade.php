@@ -24,7 +24,6 @@
 </head>
 
 <body>
-
     <div class="auth-page-wrapper">
         <!-- auth page content -->
         <div class="auth-page-content">
