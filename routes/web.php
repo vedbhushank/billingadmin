@@ -68,3 +68,15 @@ Route::get('/superadmin/create-user', function () {
 Route::get('/superadmin/user-role', function () {
     return view('superadmin.user-role');
 });
+Route::get('/superadmin/financial-year', function () {
+    return view('superadmin.financial-year');
+});
+Route::get('/superadmin/state', function () {
+    return view('superadmin.state');
+});
+Route::get('/superadmin/city', function () {
+    return view('superadmin.city');
+});
+Route::get('/superadmin/unit', function () {
+    return view('superadmin.unit');
+});

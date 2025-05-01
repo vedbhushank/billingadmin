@@ -29,11 +29,33 @@
             <li class="menu-title"><span data-key="t-menu">Menu</span></li>
             
             <li class="nav-item">
-                <a class="nav-link menu-link active" href="{{url('/dashboard')}}">
+                <a class="nav-link menu-link active" href="{{url('/superadmin/dashboard')}}">
                     <i class="las la-home"></i> <span>Dashboard</span>
                 </a>
             </li> <!-- end Dashboard Menu -->
             <li class="menu-title"><span data-key="t-menu">Masters</span></li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-link" href="{{url('/superadmin/financial-year')}}">
+                    <i class="las la-calendar"></i> <span>Financial Year</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-link" href="#location" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="location">
+                    <i class="las la-map"></i> <span>Location</span>
+                </a>
+                <div class="collapse menu-dropdown" id="location">
+                    <ul class="nav nav-sm flex-column">
+                        <li class="nav-item">
+                            <a href="{{url('/superadmin/state')}}" class="nav-link">State</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{url('/superadmin/city')}}" class="nav-link">City</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
 
             <li class="nav-item">
                 <a class="nav-link menu-link" href="#catg" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="catg">
@@ -50,22 +72,22 @@
                     </ul>
                 </div>
             </li>
-           
+
             <li class="nav-item">
-                <a class="nav-link menu-link" href="#client" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="client">
-                    <i class="las la-user"></i> <span>Client Profile</span>
+                <a class="nav-link menu-link" href="#item" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="item">
+                    <i class="las la-briefcase"></i> <span>Item Master</span>
                 </a>
-                <div class="collapse menu-dropdown" id="client">
+                <div class="collapse menu-dropdown" id="item">
                     <ul class="nav nav-sm flex-column">
                         <li class="nav-item">
-                            <a href="{{url('/superadmin/add-client-profile')}}" class="nav-link">Add Client</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{url('/superadmin/manage-client-profile')}}" class="nav-link"> Manage Clients </a>
+                            <a href="{{url('/superadmin/unit')}}" class="nav-link">Unit Master</a>
                         </li>
                     </ul>
                 </div>
             </li>
+           
+
+            <li class="menu-title"><span data-key="t-menu">Application</span></li>
 
             <li class="nav-item">
                 <a class="nav-link menu-link" href="#acc" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="acc">
@@ -82,15 +104,15 @@
                     </ul>
                 </div>
             </li>
-            
+
             <li class="nav-item">
-                <a class="nav-link menu-link" href="#v2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="v2">
-                    <i class="las la-user"></i> <span>Form Elements</span>
+                <a class="nav-link menu-link" href="#client" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="client">
+                    <i class="las la-user"></i> <span>Client Profile</span>
                 </a>
-                <div class="collapse menu-dropdown" id="v2">
+                <div class="collapse menu-dropdown" id="client">
                     <ul class="nav nav-sm flex-column">
                         <li class="nav-item">
-                            <a href="{{url('/superadmin/form-elements')}}" class="nav-link">Form Elemets</a>
+                            <a href="{{url('/superadmin/add-client-profile')}}" class="nav-link">Add Client</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{url('/superadmin/manage-client-profile')}}" class="nav-link"> Manage Clients </a>
@@ -99,13 +121,6 @@
                 </div>
             </li>
 
-            <li class="menu-title"><span data-key="t-menu">Application</span></li>
-
-            <li class="nav-item">
-                <a class="nav-link menu-link" href="{{url('/editor')}}">
-                    <i class="las la-cog"></i> <span>Editor</span>
-                </a>
-            </li>
         </ul>
     </div>
     <!-- Sidebar -->
