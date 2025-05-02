@@ -46,15 +46,15 @@
                     </div>
                     <div class="row g-3">
                         <div class="col-lg-2">
-                            <label for="" class="form-label">Financial Year</label>
+                            <label for="" class="form-label">Financial Year <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="" name="">
                         </div>
                         <div class="col-lg-2">
-                            <label for="" class="form-label">Start Date</label>
+                            <label for="" class="form-label">Start Date <span class="text-danger">*</span></label>
                             <input type="text" class="form-control datepicker" id="" name="">
                         </div>
                         <div class="col-lg-2">
-                            <label for="" class="form-label">End Date</label>
+                            <label for="" class="form-label">End Date <span class="text-danger">*</span></label>
                             <input type="text" class="form-control datepicker" id="" name="">
                         </div>
                         <div class="col-lg-2">

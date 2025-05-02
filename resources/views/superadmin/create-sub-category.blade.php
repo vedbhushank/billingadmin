@@ -46,7 +46,7 @@
                     </div>
                     <div class="row g-3">
                         <div class="col-lg-3">
-                            <label for="" class="form-label">Business Category</label>
+                            <label for="" class="form-label">Business Category <span class="text-danger">*</span></label>
                             <select name="" id="" class="form-select select2">
                                 <option value="">-- Choose --</option>
                                 <option value="">Retail</option>
@@ -57,7 +57,7 @@
                             </select>
                         </div>
                         <div class="col-lg-3">
-                            <label for="" class="form-label">Sub Category</label>
+                            <label for="" class="form-label">Sub Category <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="" name="">
                         </div>
                         <div class="col-lg-2">

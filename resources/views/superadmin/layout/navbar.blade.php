@@ -82,6 +82,12 @@
                         <li class="nav-item">
                             <a href="{{url('/superadmin/unit')}}" class="nav-link">Unit Master</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="{{url('/superadmin/size')}}" class="nav-link">Size Master</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{url('/superadmin/hsn-code')}}" class="nav-link">HSN Code Master</a>
+                        </li>
                     </ul>
                 </div>
             </li>

@@ -46,15 +46,15 @@
                     </div>
                     <div class="row g-3">
                         <div class="col-lg-3">
-                            <label for="" class="form-label">State Name</label>
+                            <label for="" class="form-label">State Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="" name="">
                         </div>
                         <div class="col-lg-2">
-                            <label for="" class="form-label">State Code</label>
+                            <label for="" class="form-label">State Code <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="" name="">
                         </div>
                         <div class="col-lg-2">
-                            <label for="" class="form-label">Short Name</label>
+                            <label for="" class="form-label">Short Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="" name="">
                         </div>
                         <div class="col-lg-2">

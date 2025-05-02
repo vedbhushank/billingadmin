@@ -5,13 +5,13 @@
     <div class="row">
         <div class="col-12">
             <div class="page-title-box d-sm-flex align-items-center justify-content-between bg-galaxy-transparent">
-                <h1 class="h3 fw-semibold mb-sm-0">Business Type/Category</h1>
+                <h1 class="h3 fw-semibold mb-sm-0">Size</h1>
 
 
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="{{url('/dashboard')}}">Dashboard</a></li>
-                        <li class="breadcrumb-item active">Business Type/Category</li>
+                        <li class="breadcrumb-item active">Size</li>
                     </ol>
                 </div>
 
@@ -23,7 +23,7 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Add Business Type/Category</h4>
+                    <h4 class="card-title">Add Size</h4>
                     <p class="mb-0 text-muted">Please fill or update the below form.</p>
                 </div>
                 <div class="card-body py-4">
@@ -46,7 +46,11 @@
                     </div>
                     <div class="row g-3">
                         <div class="col-lg-3">
-                            <label for="" class="form-label">Business Type/Category <span class="text-danger">*</span></label>
+                            <label for="" class="form-label">Size Name <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="" name="">
+                        </div>
+                        <div class="col-lg-2">
+                            <label for="" class="form-label">Size Code <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="" name="">
                         </div>
                         <div class="col-lg-2">
@@ -76,7 +80,7 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Manage Business Type/Category</h4>
+                    <h4 class="card-title">Manage Size</h4>
                     <p class="mb-0 text-muted">Please choose action buttons to manage accordingly.</p>
                 </div>
                 <div class="card-body py-4">
@@ -84,7 +88,8 @@
                         <thead class="table-light">
                             <tr>
                                 <th>Sr No</th>
-                                <th>Type/Category</th>
+                                <th>Name of Size</th>
+                                <th>Size Code</th>
                                 <th>Sorting</th>
                                 <th>Status</th>
                                 <th>Action</th>
@@ -93,7 +98,8 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Retail</td>
+                                <td>Large</td>
+                                <td>L</td>
                                 <td>1</td>
                                 <td><span class="badge bg-success-subtle text-success">Active</span></td>
                                 <td>
@@ -107,7 +113,8 @@
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Wholesale</td>
+                                <td>Medium</td>
+                                <td>M</td>
                                 <td>2</td>
                                 <td><span class="badge bg-success-subtle text-success">Active</span></td>
                                 <td>
@@ -121,37 +128,10 @@
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td>Distributor</td>
+                                <td>Small</td>
+                                <td>SM</td>
                                 <td>3</td>
                                 <td><span class="badge bg-success-subtle text-success">Active</span></td>
-                                <td>
-                                    <a href="#" title="Edit" class="text-success me-2">
-                                        <i class="bx bx-edit fs-5"></i>
-                                    </a>
-                                    <a href="#" title="Delete" class="text-danger me-2">
-                                        <i class="bx bx-trash fs-5"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Manufacturing</td>
-                                <td>4</td>
-                                <td><span class="badge bg-success-subtle text-success">Active</span></td>
-                                <td>
-                                    <a href="#" title="Edit" class="text-success me-2">
-                                        <i class="bx bx-edit fs-5"></i>
-                                    </a>
-                                    <a href="#" title="Delete" class="text-danger me-2">
-                                        <i class="bx bx-trash fs-5"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Others</td>
-                                <td>5</td>
-                                <td><span class="badge bg-danger-subtle text-danger">InActive</span></td>
                                 <td>
                                     <a href="#" title="Edit" class="text-success me-2">
                                         <i class="bx bx-edit fs-5"></i>

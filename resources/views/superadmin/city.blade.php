@@ -46,7 +46,7 @@
                     </div>
                     <div class="row g-3">
                         <div class="col-lg-3">
-                            <label for="" class="form-label">Name of State</label>
+                            <label for="" class="form-label">Name of State <span class="text-danger">*</span></label>
                             <select name="" id="" class="form-select select2">
                                 <option value="">--Choose--</option>
                                 <option value="">Chandigarh</option>
@@ -56,7 +56,7 @@
                             </select>
                         </div>
                         <div class="col-lg-5">
-                            <label for="" class="form-label">City Name</label>
+                            <label for="" class="form-label">City Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="" name="">
                             <span class="form-text">e.g Chandigarh, SAS Nagar (use comma ',' seperated to add multiple cities)</span>
                         </div>

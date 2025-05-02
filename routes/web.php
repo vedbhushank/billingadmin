@@ -80,3 +80,9 @@ Route::get('/superadmin/city', function () {
 Route::get('/superadmin/unit', function () {
     return view('superadmin.unit');
 });
+Route::get('/superadmin/size', function () {
+    return view('superadmin.size');
+});
+Route::get('/superadmin/hsn-code', function () {
+    return view('superadmin.hsn-code');
+});

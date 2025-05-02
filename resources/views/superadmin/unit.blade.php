@@ -46,11 +46,11 @@
                     </div>
                     <div class="row g-3">
                         <div class="col-lg-3">
-                            <label for="" class="form-label">Unit Name</label>
+                            <label for="" class="form-label">Unit Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="" name="">
                         </div>
                         <div class="col-lg-2">
-                            <label for="" class="form-label">Unit Code</label>
+                            <label for="" class="form-label">Unit Code <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" id="" name="">
                         </div>
                         <div class="col-lg-2">
