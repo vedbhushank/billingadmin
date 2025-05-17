@@ -35,7 +35,7 @@
                 </div>
                 <div class="card-body py-4">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12"> 
                             <!-- Success Alert -->
                             <div class="alert alert-success alert-border-left alert-dismissible fade show material-shadow" role="alert">
                                 <i class="ri-notification-off-line me-3 align-middle"></i> <strong>Hurray!</strong> Your content has successfully updated!
