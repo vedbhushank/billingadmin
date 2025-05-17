@@ -19,22 +19,30 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
-Route::get('/add-form', function () {
-    return view('add-form');
+
+
+//admin routes
+Route::get('/add-client-profile', function () {
+    return view('add-client-profile');
 });
-Route::get('/manage-form', function () {
-    return view('manage-form');
+Route::get('/manage-client-profile', function () {
+    return view('manage-client-profile');
 });
-Route::get('/add-manage-form', function () {
-    return view('add-manage-form');
+Route::get('/add-sale-party', function () {
+    return view('add-sale-party');
 });
-Route::get('/editor', function () {
-    return view('editor');
+Route::get('/manage-sale-party', function () {
+    return view('manage-sale-party');
+});
+Route::get('/add-purchase-party', function () {
+    return view('add-purchase-party');
+});
+Route::get('/manage-purchase-party', function () {
+    return view('manage-purchase-party');
 });
 
 
 // Superadmin routes
-
 Route::get('/superadmin', function () {
     return view('superadmin.index');
 });
@@ -85,4 +93,19 @@ Route::get('/superadmin/size', function () {
 });
 Route::get('/superadmin/hsn-code', function () {
     return view('superadmin.hsn-code');
+});
+
+
+//templates
+Route::get('/add-form', function () {
+    return view('add-form');
+});
+Route::get('/manage-form', function () {
+    return view('manage-form');
+});
+Route::get('/add-manage-form', function () {
+    return view('add-manage-form');
+});
+Route::get('/editor', function () {
+    return view('editor');
 });

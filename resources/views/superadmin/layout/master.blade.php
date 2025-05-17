@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Super Admin - Dashboard</title>
+    <title>Super Admin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="description" />
     <meta content="" name="author" />

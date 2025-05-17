@@ -4,7 +4,7 @@
         </div>
         <div class="col-sm-6">
             <div class="text-sm-end d-none d-sm-block">
-                Developed by Duke Infosys
+                Developed by Coders
             </div>
         </div>
     </div>

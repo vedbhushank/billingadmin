@@ -27,14 +27,71 @@
         <div id="two-column-menu"></div>
         <ul class="navbar-nav" id="navbar-nav">
             <li class="menu-title"><span data-key="t-menu">Menu</span></li>
-            
+
             <li class="nav-item">
                 <a class="nav-link menu-link active" href="{{url('/dashboard')}}">
                     <i class="las la-home"></i> <span>Dashboard</span>
                 </a>
             </li> <!-- end Dashboard Menu -->
             <li class="menu-title"><span data-key="t-menu">Masters</span></li>
-           
+
+            <li class="nav-item">
+                <a class="nav-link menu-link" href="#saleParty" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="saleParty">
+                    <i class="las la-user"></i> <span>Sale Party</span>
+                </a>
+                <div class="collapse menu-dropdown" id="saleParty">
+                    <ul class="nav nav-sm flex-column">
+                        <li class="nav-item">
+                            <a href="{{url('/add-sale-party')}}" class="nav-link">Add Sale Party</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{url('/manage-sale-party')}}" class="nav-link"> Manage Sale Party </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link menu-link" href="#purchaseParty" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="purchaseParty">
+                    <i class="las la-user"></i> <span>Purchase Party</span>
+                </a>
+                <div class="collapse menu-dropdown" id="purchaseParty">
+                    <ul class="nav nav-sm flex-column">
+                        <li class="nav-item">
+                            <a href="{{url('/add-purchase-party')}}" class="nav-link">Add Purchase Party</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{url('/manage-purchase-party')}}" class="nav-link"> Manage Purchase Party </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+
+
+            <li class="menu-title"><span data-key="t-menu">Application</span></li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-link" href="#client" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="client">
+                    <i class="las la-user"></i> <span>Client Profile</span>
+                </a>
+                <div class="collapse menu-dropdown" id="client">
+                    <ul class="nav nav-sm flex-column">
+                        <li class="nav-item">
+                            <a href="{{url('/add-client-profile')}}" class="nav-link">Add Client</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{url('/manage-client-profile')}}" class="nav-link"> Manage Clients </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link menu-link" href="{{url('/editor')}}">
+                    <i class="las la-cog"></i> <span>Editor</span>
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link menu-link" href="#Forms" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="Forms">
                     <i class="las la-cog"></i> <span>Forms</span>
@@ -52,14 +109,6 @@
                         </li>
                     </ul>
                 </div>
-            </li>
-
-            <li class="menu-title"><span data-key="t-menu">Application</span></li>
-
-            <li class="nav-item">
-                <a class="nav-link menu-link" href="{{url('/editor')}}">
-                    <i class="las la-cog"></i> <span>Editor</span>
-                </a>
             </li>
         </ul>
     </div>
