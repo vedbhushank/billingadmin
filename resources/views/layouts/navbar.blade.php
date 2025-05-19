@@ -66,6 +66,22 @@
                 </div>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link menu-link" href="#product" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="product">
+                    <i class="las la-box"></i> <span>Product Master</span>
+                </a>
+                <div class="collapse menu-dropdown" id="product">
+                    <ul class="nav nav-sm flex-column">
+                        <li class="nav-item">
+                            <a href="{{url('/add-product')}}" class="nav-link">Add Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{url('/manage-product')}}" class="nav-link"> Manage Product </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
 
 
             <li class="menu-title"><span data-key="t-menu">Application</span></li>

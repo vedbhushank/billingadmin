@@ -40,6 +40,12 @@ Route::get('/add-purchase-party', function () {
 Route::get('/manage-purchase-party', function () {
     return view('manage-purchase-party');
 });
+Route::get('/add-product', function () {
+    return view('add-product');
+});
+Route::get('/manage-product', function () {
+    return view('manage-product');
+});
 
 
 // Superadmin routes
