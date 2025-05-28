@@ -138,6 +138,10 @@
                                         <input type="text" class="form-control" id="" name="">
                                     </div>
                                     <div class="col-lg-4">
+                                        <label for="" class="form-label">MRP</label>
+                                        <input type="text" class="form-control" id="" name="">
+                                    </div>
+                                    <div class="col-lg-4">
                                         <label for="" class="form-label">With or Without Tax</label>
                                         <select name="" id="" class="form-select select2">
                                             <option value="">-- Choose --</option>
