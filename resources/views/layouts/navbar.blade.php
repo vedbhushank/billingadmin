@@ -104,7 +104,7 @@
 
              <li class="nav-item">
                 <a class="nav-link menu-link" href="#invoice" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="invoice">
-                    <i class="las la-user"></i> <span>Invoice</span>
+                    <i class="las la-file"></i> <span>Invoice</span>
                 </a>
                 <div class="collapse menu-dropdown" id="invoice">
                     <ul class="nav nav-sm flex-column">
