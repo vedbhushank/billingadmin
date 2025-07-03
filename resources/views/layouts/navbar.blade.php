@@ -102,6 +102,22 @@
                 </div>
             </li>
 
+             <li class="nav-item">
+                <a class="nav-link menu-link" href="#invoice" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="invoice">
+                    <i class="las la-user"></i> <span>Invoice</span>
+                </a>
+                <div class="collapse menu-dropdown" id="invoice">
+                    <ul class="nav nav-sm flex-column">
+                        <li class="nav-item">
+                            <a href="{{url('/generate-invoice')}}" class="nav-link">Generate Invoice</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{url('/manage-invoice')}}" class="nav-link"> Manage Invoice </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
             <li class="nav-item">
                 <a class="nav-link menu-link" href="{{url('/editor')}}">
                     <i class="las la-cog"></i> <span>Editor</span>

@@ -46,6 +46,12 @@ Route::get('/add-product', function () {
 Route::get('/manage-product', function () {
     return view('manage-product');
 });
+Route::get('/generate-invoice', function () {
+    return view('generate-invoice');
+});
+Route::get('/manage-invoice', function () {
+    return view('manage-invoice');
+});
 
 
 // Superadmin routes
